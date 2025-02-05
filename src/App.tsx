@@ -25,7 +25,7 @@ const {isOpenOption,toggleOption} = useOpenOption()//カスタムフックuseOpe
 
     <div>
     <div className="w-64 mx-auto mt-2">
-      <img src="src\assets\image_(2025_0125_1727).png"></img>
+      <img src="/image_(2025_0125_1727).png"></img>
     </div>
     <p className="text-gray-400 max-w-2xl mx-auto mt-2 text-center">AIが過疎配信を盛り上げるコメント欄。音声認識で配信者の発言に反応し、 自然なコメントで配信を活性化します。民度レベルも自由に調整可能。</p>
     </div>
