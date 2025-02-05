@@ -1,4 +1,5 @@
 import { motion } from "motion/react"
+import icon from '@/assets/robo-icon.png';
 
 const Comment = ({comment}: {comment: string}) => {
 
@@ -10,7 +11,7 @@ const Comment = ({comment}: {comment: string}) => {
     
     className='flex items-center'>
         <div className={`rounded-full overflow-hidden bg-green-500 min-w-8 w-8 h-8 mr-3`}>
-          <img className="w-full h-full object-cover" src='../assets/robo-icon.png' alt="ロボットアイコン"></img>
+          <img className="w-full h-full object-cover" src={icon} alt="ロボットアイコン"></img>
         </div>
         <div className='text-white break-words max-w-[calc(100%-2.5rem)] rounded-md p-3 bg-gray-800'>
         {comment}
